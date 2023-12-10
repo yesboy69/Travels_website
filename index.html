@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1 id="header">HolidayInn Tours & Travels</h1>
+        <div class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="holiday.html">Holidays </a></li>
+                <li><a href="crusies.html">Cruises</a></li>
+                <li><a href="bookings.html">Bookings</a></li>
+                <li><a href="info.html">Info</a></li>
+            </ul>
+        </div>
+        <div class="login">
+            <h1>User Login Form</h1>
+            <form id="form" action="index.html" target="_blank" method="post"onsubmit="return(validate())" action="">
+            
+                <div class="txt_field">
+                    <input id="username" type="text" >
+                    <span></span>
+                    <label>UserName</label>
+                </div>
+                <div class="txt_field">
+                    <input id="pwd" type="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="pass">
+                    Forgot Password?
+                </div>
+                <input id="submit" type="submit" value="Login" onclick="validate()">
+                <div class="signup_link">
+                    Not a member? <a href="#">Sign up</a>
+                </div>
+            </form>
+        </div>
+    </div>
+   
+</body>
+</html>

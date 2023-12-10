@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: url("https://th.bing.com/th/id/R.6b637f262654bf6f67e1bce82b482eb7?rik=jkTPbZGH2oyWyg&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2014%2f07%2fHD-landscape-photographs-51.jpg&ehk=SOePoIhMQMzEvIY3shy9FhgVQ%2fqkuPo61n8iJ1n5IDw%3d&risl=&pid=ImgRaw&r=0");
+}
+#header{
+    border:5px solid green;
+    text-align: center;
+    font-size: 42px;
+    font-family:fantasy;
+    padding:16px;
+    color:white;
+    background-color:blueviolet;
+}
+.navigation{
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    margin:25px;
+    justify-content: space-around;
+}
+.navigation ul li a{
+    text-decoration: underline;
+    color:white;
+    font-size: 38px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.login{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.login h1{
+    text-align: center;
+    padding:0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+.login form{
+    padding:0 40px;
+    box-sizing: border-box;
+}
+form .txt_field{
+    position:relative;
+    border-bottom: 2px solid grey;
+    margin: 30px 0;
+
+}
+.txt_field input{
+    width:100%;
+    padding:0 5px;
+    height:40px;
+    font-size: 16px;
+    border:none;
+    background: none;
+    outline: none;
+}
+.txt_field label{
+    position:absolute;
+    top:50%;
+    left:5px;
+    color:grey;
+    transform: translateY(-50%);
+    font-size: 22px;
+    pointer-events: none;
+    transition: .5s;
+
+}
+.txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left:0;
+    width: 100%;
+    height:2px;
+    background-color: blue;
+}
+.txt_field input:focus ~label,
+.txt_field input:valid ~label{
+    top:-5px;
+    color:red;
+}
+.txt_field input:focus ~span,
+.txt_field input:valid ~span{
+    top:-5px;
+    color:red;
+}
+.pass{
+    margin:-5px 0 20px 5px;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+input[type="submit"]{
+    width:100%;
+    height:50px;
+    border:1px solid black;
+    background:#42a7eb;
+    border-radius: 25px;
+    font-size: 22px;
+    color:azure;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+    border-color:#42a7eb ;
+    transition: .30s;
+}
+.signup_link{
+    color:grey;
+    text-align: center;
+    font-size: 18px;
+    margin:30px 0;
+}
+.signup_link a{
+    color:#42a7eb;
+    text-decoration: none;
+}
+.signup_link a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

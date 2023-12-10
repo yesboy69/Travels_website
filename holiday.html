@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Packages</title>
+    <style>
+        *{
+            box-sizing:border-box;
+            margin:0;
+            padding:0;
+        }
+      
+        .item img{
+            width:320px;
+            height:280px;
+            border:5px solid red;
+            border-radius: 12px;
+            display:block;
+        }
+        .container{
+            display:flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            padding:12px;
+            justify-content: space-around;
+            position:relative;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: box-shadow 0.2s ease,transform 0.3s ease;
+        }
+        .item{
+            background:linear-gradient(to right, darkblue, lightblue,gold,purple,green);
+            border:1px solid black;
+            width:550px;
+            padding:37px;
+            text-align: center;
+            color:white;
+            transition: opacity 0.1s ease;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+           margin-top: 35px;
+           
+        }
+        .item:hover{
+            opacity:1;
+            box-shadow: 15px 15px greenyellow;
+            transform:translateY(-5px);
+        }
+        .item h1{
+            color:tomato;
+            font-size: 46px;
+            background:white;
+        }
+        .item h3{
+            background:blue;
+            font-size: 32px;
+
+        }
+        .item ul li{
+            font-size: 26px;
+        }
+        #header{
+            text-align: center;
+            border:3px solid whitesmoke;
+            padding :16px;
+            font-size: 52px;
+            background-color: yellow;
+            color:orangered;
+        }
+        body{
+            background: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="header">Visit our Holiday Packages</h1>
+    <div class="container">
+        <div class="item">
+            <h1>Greece</h1>
+            <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/a6/2a/d3.jpg" alt="Greece">
+            <h3>Places Covered :</h3>
+            <ul>
+                <li>Athens</li>
+                <li>Satorini</li>
+                <li>Mythosos</li>
+                <li>Corfu</li>
+                <li>Paros</li>
+            </ul>
+            <h3>Package Cost  :  £6000 </h3>
+            
+        </div>
+        <br>
+        <div class="item">
+            <h1>China</h1>
+            <img src="https://th.bing.com/th/id/OIP.SEhGQAW5R0UpMJM6KS_ADQHaE8?w=263&h=180&c=7&r=0&o=5&pid=1.7">
+            <h3>Places Covered :</h3>
+            <ul>
+                <li>Beijing</li>
+                <li>Tiger Leaping Gorge</li>
+                <li>Terracotta Warriors</li>
+                <li>Shanghai</li>
+                <li>Great Wall </li>
+            </ul>
+            <h3>package Cost: £10,000</h3>
+        </div>
+        <br>
+        <div class="item">
+            <h1>Madagascar</h1>
+            <img src="https://cdn.thecrazytourist.com/wp-content/uploads/2017/01/Ifaty.jpg">
+            <h3>PLaces covered :</h3>
+            <ul>
+                <li>Ifaty</li>
+                <li>Nosy Be</li>
+                <li>Nosy Mangabe</li>
+                <li>Tsingy de Bemaraha</li>
+                <li>Ranomafana National Park</li>
+            </ul>
+            <h3>package Cost:£7000</h3>
+        </div>
+        <br>
+        <div class="item">
+            <h1>Mexico</h1>
+            <img src="https://th.bing.com/th/id/OIP.DgDjZx1PVtbunZM2tjFl5AAAAA?rs=1&pid=ImgDetMain">
+            <h3>places Covered</h3>
+            <ul>
+                <li>the ancient Mayan site of Chichen Itza</li>
+                <li>the colonial city of San Miguel de Allende</li>
+                <li> the stunning Copper Canyon</li>
+                <li> Teotihuacan archeological site </li>
+                <li>famous Mesoamerican pyramid</li>
+            </ul>
+            <h3>package Cost:7500</h3>
+        </div>
+        <br>
+        <div class="item">
+        <h1>Brazil</h1>
+        <img src="https://th.bing.com/th?id=OIP.jhRElb2s-RCpvEITiOhlggHaFh&w=289&h=215&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="">
+        <h3>places Covered</h3>
+        <ul>
+            <li>beaches at Rio de Janeiro</li>
+            <li> Santa Catarina</li>
+            <li> beaches and dunes in the Northeast Region</li>
+            <li>São Paulo city</li>
+            <li> the Iguazu Falls</li>
+        </ul>
+        <h3>Package Cost :£5000 </h3>
+        </div>
+        <br>
+        <div class="item">
+            <h1>Vietnam</h1>
+            <img src="https://www.venuefinder.com/images/country/83/mu-cang-chai-vietnam-panorama.jpg" alt="">
+            <h3>Places Covered</h3>
+            <ul>
+                <li>Halong Bay</li>
+                <li>Bana Hills</li>
+                <li>Danang</li>
+                <li>Sapa Valley</li>
+                <li>Hana City</li>
+            </ul>
+            <h3>Package Cost:£9000</h3>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
